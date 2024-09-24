@@ -203,13 +203,23 @@ button{
     width: 300px;
     height: 400px;
     left: 80px;
+    box-shadow: 3px 3px 3px 3px #808080;
 }
-.webimg{
-    padding: 0px;
-}
-.webcontent{
+.projectcontent{
     padding: 20px;
 }
+#projectbutton{
+    position: absolute;
+    background-color: #ff0000;
+    border: #ff0000;
+    color: #FFFFFF;
+    top:342px;
+    left: 95px;
+}
+.grid-item7:hover{
+    transform: scale(1.1);
+}
+
 .grid-item8{
     position: absolute;
     background-color: #FFFFFF;
@@ -218,12 +228,21 @@ button{
     width: 300px;
     height: 400px;
     left: 465px;
+    box-shadow: 3px 3px 3px 3px #808080;
 }
-.fullstackimg{
-    padding: 0px;
-}
-.fullstackcontent{
+.certificationcontent{
     padding: 20px;
+}
+#certificationbutton{
+    position: absolute;
+    background-color: #ff0000;
+    border: #ff0000;
+    color: #FFFFFF;
+    top:342px;
+    left: 95px;  
+}
+.grid-item8:hover{
+    transform: scale(1.1);
 }
 .grid-item9{
     position: absolute;
@@ -233,71 +252,30 @@ button{
     width: 300px;
     height: 400px;
     left: 850px;
+    box-shadow: 3px 3px 3px 3px #808080;
 }
-.reactimg{
-    padding: 0px;
-}
-.reactcontent{
+.resumecontent{
     padding: 20px;
 }
+#resumebutton{
+    position: absolute;
+    background-color: #ff0000;
+    border: #ff0000;
+    color: #FFFFFF;
+    top:342px;
+    left: 95px;     
+}
+.grid-item9:hover{
+    transform: scale(1.1);
+}
+
 
 
 
-footer {
-    position: relative;
-    top: 1300px;
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0;
-    font-family: Arial, sans-serif;
-}
-footer .max-w-7xl {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-footer h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-footer p,
-footer a {
-    font-size: 14px;
-    color: #ccc;
-}
-footer a {
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-footer a:hover {
-    color: #fff;
-}
-footer .flex {
-    display: flex;
-    gap: 15px;
-}
-footer .space-y-3 {
-    margin-bottom: 20px;
-}
-footer .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-}
-footer .border-t {
-    border-top: 1px solid #444;
-    margin-top: 20px;
-    padding-top: 20px;
-}
-footer .text-center {
-    text-align: center;
-}
 
-/*@media (max-width: 768px) {
-    footer .grid {
-        grid-template-columns: 1fr;
-            }
-}*/
+
+   
+    
 
 
 .asidebar{
