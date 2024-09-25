@@ -273,9 +273,48 @@ button{
 
 
 
+.div-container{
+    position: relative;
+    top:1280px;
+    background-color:#000000;
+    padding-left: 150px;
+}
+.div-main{
+    font-family:"Poppins";
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 10px;
+}
+.button{
+    background-color: #1A1AE4;
+    color: #EEEEEE;
+    border: #1A1AE4;
+    width: 150px;
+    height: 30px;
+    font-family:"Poppins";
+    font-weight:bold;
+}
+.submit{
+    font-family:"Poppins";
+    font-weight:800;
+    font-size:medium;
+}
+.about{
+    color: #EEEEEE;
+    font-family:"Poppins";
+    font-weight: bolder;
+    padding-bottom: 5px;
+    font-size: larger;
+    padding-right: 75px;
+}
+.about-p{
+    color: #EEEEEE;
+    font-family: "Poppins";
+    font-weight:500;
+    font-size:small;
+}
 
-   
-    
+
 
 
 .asidebar{
